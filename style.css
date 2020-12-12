@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+}
+
+
+#navbar{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+
+}
+
+.topNav{
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+    font-family: arial,sans-serif;
+    opacity: 0.75;
+    padding-left: 15px;
+
+}
+
+#foot{
+    position: absolute;
+    bottom: 0px;
+    width: 100vw;
+    background: #f2f2f2;
+    line-height: 40px;
+    border-top: 1px solid #e4e4e4;
+    padding-left: #f2f2f2; 
+
+    display: flex;
+}
+
+.bottomNav{
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(95, 99, 104);
+    padding-left: 22px;
+    font-family: arial,sans-serif;
+}
