@@ -39,3 +39,89 @@ body{
     padding-left: 22px;
     font-family: arial,sans-serif;
 }
+
+#center{
+    height: calc(100vh - 45px - 41.5px);
+}
+
+#googleImg{
+    padding-top: 153px;
+    display: block;
+    margin: auto;
+}
+
+#searchBar{
+    position: absolute;
+    top: 311px;
+    height: 52px;
+    width: 100%;
+    padding-top: 6px;
+}
+
+#sBar{
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    height: 44px;
+    width: 582px;
+    margin: auto;
+}
+
+#sBar:hover{
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    border-color: rgba(223, 225, 229, 0);
+}
+
+#lucky{
+    width: 100%;
+    height: 58px;
+}
+
+.button{
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    
+}
+
+#form{
+    display: inline-block;
+    position:relative;
+    left: calc(50% - 150.9585px);
+    top: 92px;
+    right: 7px;
+}
+
+#glass{
+    position: relative;
+    top: calc(50% - 12.5px);
+    left: 9px;
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+#textInp{
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    color: rgba(0,0,0,0.87);
+    word-wrap: break-word;
+    outline: none;
+    font: 16px arial,sans-serif;
+    line-height: 34px;
+    height: 34px;
+    width: 527px;
+    position: relative;
+    bottom: 71px;
+    right: 389px;
+}
